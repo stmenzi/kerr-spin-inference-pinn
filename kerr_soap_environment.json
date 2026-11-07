@@ -1,0 +1,13 @@
+{
+  "optimizer": "SOAP",
+  "torch_version": "2.8.0+cpu",
+  "precision": "float64",
+  "epochs": 800,
+  "learning_rate": 0.001,
+  "betas": [
+    0.95,
+    0.95
+  ],
+  "precondition_frequency": 10,
+  "soap_dtype_patch": true
+}

@@ -1,0 +1,31 @@
+{
+  "k_values": [
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "spins": [
+    0.2,
+    0.3,
+    0.5,
+    0.7,
+    0.9
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "omega": 0.5,
+  "sigma": 0.0,
+  "epochs": 800,
+  "lbfgs_iter": 50,
+  "torch_version": "2.8.0+cpu",
+  "spin_initial": 0.495,
+  "model": "s=-2 angular Teukolsky",
+  "architecture": "tanh 24x2",
+  "sigmoid": "LO+(HI-LO)*sigmoid(raw)**k"
+}

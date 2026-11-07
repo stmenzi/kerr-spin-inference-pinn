@@ -1,0 +1,21 @@
+{
+  "model": "spin-weighted gravitational angular Teukolsky equation",
+  "s": -2,
+  "m": 2,
+  "ell": 2,
+  "omega": "real prescribed 0.5",
+  "not_QNM": true,
+  "quick": false,
+  "epochs": 800,
+  "lbfgs": 50,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "data_origin": "independent higher-order Jacobi Galerkin reference (order 22); solver PINN or lower-order order16",
+  "physical_scope": "Angular only, no radial/QNM eigenfrequency or observations",
+  "warning": "Reference and fitting use same Galerkin-family model (orders 22 vs 16); not external astrophysical validation"
+}

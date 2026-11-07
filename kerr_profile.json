@@ -1,0 +1,10 @@
+{
+  "a_true": 0.3,
+  "sigma": 0.01,
+  "best": 0.3006969696969697,
+  "approximate_region": [
+    0.3006969696969697,
+    0.3006969696969697
+  ],
+  "caution": "uncalibrated bounded nonlinear diagnostic"
+}
