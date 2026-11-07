@@ -1,0 +1,10 @@
+
+# Python dependencies for the Kerr angular inverse-PINN experiments
+# PyTorch 2.8.0 was recorded in the SOAP and sigmoid-k runs.
+# Other exact historical versions were not archived.
+
+numpy
+scipy
+matplotlib
+torch==2.8.0
+spheroidal
